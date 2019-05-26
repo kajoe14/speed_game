@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Speed Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="columns twelve ptb-10 mt-5">
+        <h2 class="title">SPEED GAME</h2>
+        <hr>
+        <div class="score-board">
+          <div class="row">
+            <div class="columns six">
+              <h4 class="title">SCORE: <span id="game-score">0</span></h4>
+            </div>
+            <div class="columns six">
+              <h4 class="title">SPEED: <span id="game-speed">0</span></h4>
+            </div>
+          </div>
+        </div>
+        <div id="hook"></div>
+        <div class="game-content mb-3">
+          <div class="light"></div>
+          <div class="light"></div>
+          <div class="light"></div>
+          <div class="light"></div>
+        </div>
+        <button class="button-primary columns four" type="button" id="start-game">START</button>
+        <button class="button-primary columns four" type="button" id="stop-game">STOP</button>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

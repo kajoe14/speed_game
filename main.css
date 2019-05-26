@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body { min-height: 100vh; }
+
+.ptb-10 { padding: 10rem 0 !important; }
+.mt-5 { margin-top: 5rem !important; }
+.m-auto { margin: 0 auto !important; }
+.mb-3 { margin-bottom: 3rem !important; }
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  opacity: .6;
+}
+
+h5.stats-score {
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+h3.stats-title {
+  margin: 0 auto;
+  font-size: 5rem;
+  font-weight: 900;
+  padding-top: 10%;
+  color: white;
+}
+
+span .overall-score {
+  color: white;
+  margin: 0 auto;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.overlay .close-overlay {
+  font-size: 4rem;
+  margin: 0 auto;
+  padding-top: 100px;
+  color: white;
+  font-weight: 900;
+}
+
+#cover {
+  height: 106vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: darkgrey;
+  opacity: 0.7;
+  display: none;
+}
+
+
+.game-content {
+  display: flex;
+  justify-content: center;
+
+}
+
+.light {
+  width: 200px;
+  height: 200px;
+  background-color: greenyellow;
+  margin: 1em;
+  border-radius: 50%;
+}
+
+.light:active {
+  box-shadow: inset 0px 0px 10px #333;
+}
+
+
+
